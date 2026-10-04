@@ -46,6 +46,7 @@ compress 'lz4'             archive.tar.lz4    'lz4'
 compress 'zstd -6'          archive.6.tar.zst  'zstd -6'
 compress 'zstd -9'          archive.9.tar.zst  'zstd -9'
 compress 'zstd -12'         archive.12.tar.zst 'zstd -12'
+compress 'zstd --ultra -22' archive.22.tar.zst 'zstd --ultra -22'
 
 echo '== распаковка =='
 extract 'baseline (tar)' archive.tar plain
